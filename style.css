@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&display=swap');
+
+* {
+    font-family: 'Open Sans', san-serif;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.img-container {
+    width: 800px;
+    height: 800px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+body {
+    background-color: rgb(196, 144, 144);
+}
+
+.footer-text a {
+    padding: 1em;
+    background-color: #ddd;
+    border-radius: 0.5em;
+    margin-right: 0.5em;
+    text-decoration: none;
+    color: #000;
+    transition: all 0.5 ease;
+}
